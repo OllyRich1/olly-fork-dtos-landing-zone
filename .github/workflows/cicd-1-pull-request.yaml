@@ -134,6 +134,6 @@ jobs:
         if: ${{ failure() && steps.validate.conclusion == 'failure' }}
         with:
           message: |
-            Your Pull Request title must meet the conventional commit standards - https://www.conventionalcommits.org/en/v1.0.0/#specification
+            Your Pull Request title must meet the conventional commit standards, please see the following documentation - https://www.conventionalcommits.org/en/v1.0.0/#specification
 
 
